@@ -15,14 +15,11 @@ export default class Component {
      * @memberof Component
      */
     constructor(id) {
-        // eslint-disable-next-line no-console
-        console.assert(
-            isString(id),
-            id,
-            '[Class Component] Requires argument for `super()` to be a String. eg. `super("C01")`'
-        );
-
-        this.componentId = isString(id) ? id : '';
+        if (isString(id)) {
+            this.componentId = isString(id) ? id : '';
+        } else {
+            throw new Error('[Component Class] Requires argument for `super()` to be a String. eg. `super("C01")`');
+        }
     }
 
     /**

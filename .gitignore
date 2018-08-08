@@ -6,6 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 .idea
 
+node_modules
+
 # Runtime data
 pids
 *.pid
