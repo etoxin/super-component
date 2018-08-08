@@ -1,0 +1,13 @@
+{
+  "name": "super-component",
+  "version": "1.0.0",
+  "description": "A small microframework super class.",
+  "main": "component.js",
+  "repository": "git@github.com:etoxin/super-component.git",
+  "author": "Adam Lusted",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
