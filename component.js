@@ -7,7 +7,7 @@ import isString from 'lodash/isString';
  * Component Super Class
  * @class Component
  */
-export class Component {
+export default class Component {
     /**
      * Creates an instance of Component.
      * @param {string} id The ID of the component.
